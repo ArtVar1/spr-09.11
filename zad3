@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <script type="text/javascript">
+        function wypisz() {
+
+            rzut_wynik = parseFloat(wyn)
+            liczba_rzut = parseFloat(r)
+        }
+    </script>
+</head>
+
+<body>
+    rzut kostką
+    <br>
+    <form name="formularz" action="..." onsubmit="rzut(this.rzuty.value); return false">
+        Podaj liczbę rzutów:
+        <input size="4" name="rzuty">
+        <br>
+        <input TYPE="submit" Value="losuj">
+    </form>
+    <table>
+        <tr id="pokaz[i]"></tr>
+    </table>
+</body>
+
+</html>
