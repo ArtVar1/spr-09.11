@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <script type="text/javascript">
+        function uczen(wzrost, wiek, klasa, waga) {
+            this.wzrost = wzrost
+            this.wiek = wiek
+            this.klasa = klasa
+            this.waga = waga
+        }
+
+        function show_alert() {
+            Jarek = new uczen("180cm", 18, "3a", "70Kg");
+            Ania = new uczen("175cm", 16, "1b", "50Kg");
+            Brek = new uczen("160cm", 17, "2g", "55Kg");
+            Włodzimierz = new uczen("190", 19, "4c", "80Kg");
+
+            alert(document.write("wzrost: " + Jarek.wzrost + "<br>Wiek: " + Jarek.wiek + "<br>Klasa: " + Jarek.klasa + "<br>Waga: " + Jarek.waga + "<br><br>"));
+            alert(document.write("wzrost: " + Ania.wzrost + "<br>Wiek: " + Ania.wiek + "<br>Klasa: " + Ania.klasa + "<br>Waga: " + Ania.waga + "<br><br>"));
+            alert(document.write("wzrost: " + Brek.wzrost + "<br>Wiek: " + Brek.wiek + "<br>Klasa: " + Brek.klasa + "<br>Waga: " + Brek.waga + "<br><br>"));
+            alert(document.write("wzrost: " + Włodzimierz.wzrost + "<br>Wiek: " + Włodzimierz.wiek + "<br>Klasa: " + Włodzimierz.klasa + "<br>Waga: " + Włodzimierz.waga + "<br><br>"));
+
+        }
+    </script>
+
+</head>
+
+<body>
+    <input type="button" onclick="show_alert()" value="Pokaż Alert Box" />
+</body>
+
+</html>
